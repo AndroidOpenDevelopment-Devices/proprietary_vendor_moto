@@ -385,8 +385,10 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shamu/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     vendor/moto/shamu/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/moto/shamu/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+    vendor/moto/shamu/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
     vendor/moto/shamu/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     vendor/moto/shamu/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
+    vendor/moto/shamu/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/moto/shamu/proprietary/vendor/firmware/aonvr1.bin:system/vendor/firmware/aonvr1.bin \
     vendor/moto/shamu/proprietary/vendor/firmware/aonvr2.bin:system/vendor/firmware/aonvr2.bin \
     vendor/moto/shamu/proprietary/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd \

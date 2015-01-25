@@ -24,6 +24,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     org.simalliance.openmobileapi
 
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    TriggerEnroll \
+    TriggerTrainingService
+
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
     libtime_genoff
